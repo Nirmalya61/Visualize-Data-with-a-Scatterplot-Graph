@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #AAA;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #CCC;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .chart {
+    background-color: #edf1f0;
+    display: block;
+  }
+  
+  .axis-description {
+    font-size: 20px;
+  }
+  
+  .axis text {
+    font-size: 20px;
+  }
+  
+  .axis line {
+    stroke: #000000;
+  }
+  
+  .title {
+    font-size: 30px;
+  }
+  
+  .source {
+    font-size: 20px;
+  }
+  
+  .tooltip {
+    background-color: #00FF00;
+    position: absolute;
+    z-index: 2;
+    color: #000000;
+    font-size: 16px;
+    padding: 5px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+  }
+  
